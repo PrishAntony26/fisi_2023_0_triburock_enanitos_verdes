@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/img_1"
+        android:layout_weight="50"
+        android:layout_margin="30dp"
+
+        />
+
+    <EditText
+        android:id="@+id/editTextUser"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:text="Usuario: Favio Terronez "
+
+        android:background="@drawable/edt_style"
+        android:drawableLeft="@drawable/usuario_5"
+
+        android:drawablePadding="10dp"
+        android:layout_weight="9"
+
+
+
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+
+        />
+
+    <EditText
+        android:id="@+id/editTextUser1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:text="Correo: FT@gmail.com"
+
+        android:background="@drawable/edt_style"
+        android:drawableLeft="@drawable/usuario_5"
+
+        android:drawablePadding="10dp"
+        android:layout_weight="9"
+
+
+
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+
+        />
+    <EditText
+        android:id="@+id/editTextUser2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:text="Edad: 18años"
+
+        android:background="@drawable/edt_style"
+        android:drawableLeft="@drawable/usuario_5"
+
+        android:drawablePadding="10dp"
+        android:layout_weight="9"
+
+
+
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+
+        />
+    <EditText
+        android:id="@+id/editTextUser3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:text="Preferencias: Terror , Suspenso"
+
+        android:background="@drawable/edt_style"
+        android:drawableLeft="@drawable/usuario_5"
+
+        android:drawablePadding="10dp"
+        android:layout_weight="9"
+
+
+
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+
+        />
+
+
+    <Button
+        android:id="@+id/buttonIngresar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@color/stripe_3ds2_primary"
+        android:text="Regresar al inicio"
+
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="5dp"
+
+
+        />
+
+
+
+
+
+
+
+</LinearLayout>

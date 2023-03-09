@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">App Cinéfilos</string>
+    <string name="item1">Ver Perfil</string>
+    <string name="item2">Configuración</string>
+    <string name="item3">Membresía Cinéfilo</string>
+    <string name="user">Usuario</string>
+    <string name="pass">Contraseña</string>
+    <string name="registrar">Registrar</string>
+    <string name="olvidarPassword">Olvido la contraseña ?</string>
+
+</resources>
